@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="../node_modules/angular-material/angular-material.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="../resources/style-sheets/app.css">
+</head>
+
+<body ng-app="myApp" layout="column">
+
+    <md-toolbar>
+        <h1>Angular Material Starter</h1>
+    </md-toolbar>
+
+    <div class="container" layout="row" flex>
+        <md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp">
+            <md-list>
+                <md-list-item>
+                    <md-button>
+                        <md-icon md-svg-src="../resources/svg/001-man-13.svg" class="avatar"></md-icon>
+                        Debanjan Dutta
+                    </md-button>
+                </md-list-item>
+                <md-list-item>
+                    <md-button>
+                        <md-icon md-svg-src="../resources/svg/002-woman-14.svg" class="avatar"></md-icon>
+                        Scarlett Johannson
+                    </md-button>
+                </md-list-item>
+            </md-list>
+        </md-sidenav>
+        <md-content id="content" flex>
+            <md-icon md-svg-src="../resources/svg/001-man-13.svg" class="avatar"></md-icon>
+            <h2>Debanjan Dutta</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nostrum expedita voluptatem recusandae aut deserunt,
+                dignissimos doloremque, facere provident voluptates debitis, nesciunt eius facilis! Eaque nostrum odio blanditiis
+                amet similique.</p>
+        </md-content>
+    </div>
+
+
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/angular-animate/angular-animate.min.js"></script>
+    <script src="../node_modules/angular-aria/angular-aria.min.js"></script>
+    <script src="../node_modules/angular-material/angular-material.min.js"></script>
+    <script src="../resources/scripts/app.js"></script>
+</body>
+
+</html>
