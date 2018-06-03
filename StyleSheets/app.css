@@ -9,7 +9,7 @@
 }
 
 .carousel-caption {
-    bottom: 5em;
+    bottom: 10em;
     opacity: 0.9;
 }
 
@@ -136,7 +136,7 @@
 
 .custom-text-centered {
     position: absolute;
-    top: 80%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     opacity: 0.9;
