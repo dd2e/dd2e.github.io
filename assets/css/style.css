@@ -123,7 +123,7 @@ li {
 }
 
 .xs-heading span {
-  color: #18bfc3;
+  color: #896800;
 }
 
 .xs-heading .color-green {
@@ -323,16 +323,16 @@ li {
 }
 
 .btn-primary {
-  background-color: #18bfc3;
+  background-color: #6b4701;
 }
 
 .btn-primary:hover:before,
 .btn-primary:hover:after {
-  background-color: #041D57;
+  background-color: #896800;
 }
 
 .btn-primary:hover {
-  background-color: #18bfc3;
+  background-color: #6b4701;
   color: #FFFFFF;
 }
 
@@ -347,7 +347,8 @@ li {
 }
 
 .btn-secondary {
-  background-color: #041D57;
+  background-color: #f9c901;
+  color: black;
 }
 
 .btn-secondary:hover:before,
@@ -356,7 +357,7 @@ li {
 }
 
 .btn-secondary:hover {
-  background-color: #041D57;
+  background-color: #f9c901;
   color: #FFFFFF;
 }
 
@@ -529,7 +530,8 @@ a.xs-post-title:hover {
 .xs-social-list li a:hover,
 .xs-social-list-v2 li a:hover {
   border-color: transparent;
-  background-color: #041D57;
+  background-color: #f6e000;
+  color: black;
 }
 
 .xs-social-list li a.color-facebook:hover,
@@ -682,8 +684,8 @@ a.xs-post-title:hover {
   text-align: center;
   display: block;
   border-radius: 100%;
-  background-color: #3ac798;
-  color: #FFFFFF;
+  background-color: #f9c901;
+  color: #000000;
   font-size: 1.42857em;
   -webkit-box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.1);
@@ -692,7 +694,8 @@ a.xs-post-title:hover {
 }
 
 .xs-round-nav:hover {
-  background-color: #041D57;
+  background-color: #985b10;
+  color: #FFFFFF;
 }
 
 .xs-square-nav {
@@ -778,7 +781,7 @@ blockquote span {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  background-color: #18bfc3;
+  background-color: #6b4701;
   text-align: center;
   color: #FFFFFF;
   font-size: 1.14286em;
@@ -799,7 +802,7 @@ blockquote span {
 
 .xs-info-list li,
 .xs-info-list a {
-  color: #FFFFFF;
+  color: #6b4701;
   font-size: 14px;
   line-height: 1.49;
   margin-bottom: 17px;
@@ -838,7 +841,7 @@ blockquote span {
   width: 50px;
   height: 50px;
   line-height: 50px;
-  background-color: #18bfc3;
+  background-color: #896800;
   color: #FFFFFF;
   text-align: center;
   display: inline-block;
@@ -1518,7 +1521,7 @@ blockquote span {
 }
 
 .xs-skill-bar .xs-skill-track {
-  background-color: #18bfc3;
+  background-color: #896800;
   height: 100%;
   overflow: visible !important;
   width: calc(40px - 13px);
@@ -1558,7 +1561,7 @@ blockquote span {
 .xs-skill-bar p {
   position: absolute;
   right: 0;
-  background-color: #18bfc3;
+  background-color: #6b4701;
   width: 40px;
   height: 40px;
   font-size: 0.85714em;
@@ -1746,7 +1749,7 @@ blockquote span {
 .xs-feature-box {
   -ms-flex-item-align: center;
   align-self: center;
-  background-color: #18bfc3;
+  background-color: #6b4701;
   min-height: 310px;
   padding: 80px 40px;
   text-align: center;
@@ -1763,7 +1766,7 @@ blockquote span {
 
 .xs-feature-box.highlight {
   min-height: 450px;
-  background-color: #12b8bc;
+  background-color: #985b10;
   padding: 80px 40px;
 }
 
@@ -1816,7 +1819,7 @@ blockquote span {
 }
 
 .xs-service-promo span {
-  color: #18bfc3;
+  color: #985b10;
   display: inline-block;
   margin-bottom: 30px;
   font-size: 4.28571em;
@@ -1926,7 +1929,7 @@ blockquote span {
 
 .xs-volunteer-form-wraper {
   padding: 50px;
-  color: #18bfc3;
+  color: #FFFFFF;
   border-radius: 4px;
   position: relative;
 }
@@ -2075,8 +2078,8 @@ blockquote span {
 .xs-volunteer-form textarea {
   width: 100%;
   border-radius: 0;
-  border: 2px solid #18bfc3;
-  color: #18bfc3;
+  border: 2px solid #f6e000;
+  color: #f6e000;
   height: 55px;
   background-color: transparent;
   outline: none;
@@ -2117,8 +2120,8 @@ blockquote span {
 .xs-volunteer-form .xs-fileContainer {
   position: relative;
   overflow: hidden;
-  border: 2px solid #18bfc3;
-  color: #18bfc3;
+  border: 2px solid #f6e000;
+  color: #f6e000;
 }
 
 .xs-volunteer-form .xs-fileContainer label {
@@ -2285,7 +2288,7 @@ blockquote span {
 .xs-event-content a:not(.btn) {
   font-size: 1.57143em;
   font-weight: 700;
-  color: #18bfc3;
+  color: #6b4701;
   margin-bottom: 15px;
   line-height: 1.5;
   display: block;
@@ -2490,7 +2493,8 @@ blockquote span {
 }
 
 .xs-footer-section {
-  background-color: #262e3b;
+  background-color: #f9c901;
+  color: black !important;
   position: relative;
   background-position: center right;
   background-size: contain;
@@ -2514,13 +2518,13 @@ blockquote span {
 }
 
 .footer-widget p {
-  color: #FFFFFF;
+  color: #000000;
   margin-bottom: 20px;
 }
 
 .footer-widget .widget-title {
   margin-bottom: 30px;
-  color: #FFFFFF;
+  color: #000000;
   font-size: 1.28571em;
   font-weight: 600;
   text-transform: capitalize;
@@ -2535,7 +2539,7 @@ blockquote span {
 }
 
 .xs-footer-list a {
-  color: #FFFFFF;
+  color: #000000;
   display: block;
   font-size: 1em;
   -webkit-transition: all 0.4s ease;
@@ -2549,11 +2553,11 @@ blockquote span {
 .xs-copyright-text p {
   margin-bottom: 0;
   line-height: 1.5;
-  color: #97b0ea;
+  color: #6b4701;
 }
 
 .xs-copyright-text p a {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .xs-footer-menu {
@@ -2572,13 +2576,13 @@ blockquote span {
 
 .xs-footer-menu li a {
   display: block;
-  color: #97b0ea;
+  color: #6b4701;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
 
 .xs-footer-menu li a:hover {
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .xs-archive-content {
@@ -4089,21 +4093,22 @@ svg {
   padding: 7px 22px;
   font-weight: 400;
   font-size: 1em;
-  color: #FFFFFF;
+  color: #896800;
 }
 
 .xs-breadcumb li a {
-  color: #FFFFFF;
+  color: #000000;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
+  font-weight: 400;
 }
 
 .xs-breadcumb li a:hover {
-  color: #18bfc3;
+  color: #6b4701;
 }
 
 .badge-primary {
-  background-color: #9064bf;
+  background-color: #f6e000;
 }
 
 .xs-blog-post-details {
