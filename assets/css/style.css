@@ -55,7 +55,7 @@ img:not([draggable]),
 embed,
 object,
 video {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -527,14 +527,20 @@ a.xs-post-title:hover {
   color: #FFFFFF;
 }
 
-.xs-social-list li a:hover,
-.xs-social-list-v2 li a:hover {
+.xs-social-list li a:hover
+{
   border-color: transparent;
-  background-color: #f6e000;
+  background-color: #f9c901;
   color: black;
 }
 
-.xs-social-list li a.color-facebook:hover,
+.xs-social-list-v2 li a:hover {
+  border-color: transparent;
+  background-color: #985b10;
+  color: black;
+}
+
+/* .xs-social-list li a.color-facebook:hover,
 .xs-social-list-v2 li a.color-facebook:hover {
   background-color: #3b5998;
 }
@@ -562,7 +568,7 @@ a.xs-post-title:hover {
 .xs-social-list li a.color-linkedin:hover,
 .xs-social-list-v2 li a.color-linkedin:hover {
   background-color: #dd5143;
-}
+} */
 
 .xs-social-list.square li a,
 .square.xs-social-list-v2 li a {
@@ -672,9 +678,10 @@ a.xs-post-title:hover {
   width: 40px;
   height: 40px;
   line-height: 40px;
-  border: 1px solid #55acee;
-  background-color: transparent;
+  border: 1px solid #6b4701;
+  background-color: #6b4701;
   font-size: 1em;
+  color: white;
 }
 
 .xs-round-nav {
@@ -2578,7 +2585,7 @@ blockquote span {
 
 .xs-footer-menu li a {
   display: block;
-  color: #6b4701;
+  color: white;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
