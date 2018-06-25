@@ -720,7 +720,7 @@ blockquote {
   margin-bottom: 0;
   padding-left: 30px;
   border-left: 1px solid #dadada;
-  color: #677eb4;
+  color: #6b4701;
   margin-left: 70px;
 }
 
@@ -1621,7 +1621,7 @@ blockquote span {
 }
 
 .xs-item-content {
-  padding: 30px;
+  padding: 20px;
 }
 
 .xs-item-content .xs-separetor {
@@ -1750,8 +1750,8 @@ blockquote span {
   -ms-flex-item-align: center;
   align-self: center;
   background-color: #6b4701;
-  min-height: 310px;
-  padding: 80px 40px;
+  min-height: 300px;
+  padding: 40px 40px;
   text-align: center;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -1764,10 +1764,13 @@ blockquote span {
   align-items: center;
 }
 
-.xs-feature-box.highlight {
-  min-height: 450px;
+.xs-feature-box:hover {
+  min-height: 300px;
   background-color: #985b10;
-  padding: 80px 40px;
+  padding: 40px 40px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
 }
 
 .xs-feature-box.bg-purple {
@@ -2499,12 +2502,11 @@ blockquote span {
   background-position: center right;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url("../images/backgrounds/footer_map.png");
 }
 
 .xs-footer-top-layer {
-  padding-top: 110px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 .xs-copyright {
@@ -4169,7 +4171,7 @@ svg {
   text-align: center;
   vertical-align: middle;
   line-height: 1.2;
-  background-color: #041D57;
+  background-color: #6b4701;
   color: #FFFFFF;
   border-radius: 4px;
 }
@@ -4185,7 +4187,7 @@ svg {
   padding: 30px 40px;
   border-left: 0px solid #dadada;
   color: #FFFFFF;
-  background: #041D57;
+  background: #6b4701;
   z-index: 1;
   border-radius: 3px;
   margin-left: 0px;
@@ -4247,12 +4249,12 @@ svg {
   display: block;
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
-  color: #041D57;
+  color: #6b4701;
   font-weight: 700;
 }
 
 .xs-post-entry-title a:hover {
-  color: #18bfc3;
+  color: #f9c901;
 }
 
 .entry-sub-title {
@@ -4422,7 +4424,7 @@ svg {
 .xs-blog-post-comment .comment-meta .comment-author b {
   display: table-cell;
   vertical-align: top;
-  color: #041D57;
+  color: #896800;
   font-size: 1.14286em;
   font-weight: 600;
 }
@@ -4479,14 +4481,14 @@ svg {
 .xs-blog-post-comment .comment-respond .comment-reply-title {
   font-size: 1.28571em;
   font-weight: 700;
-  color: #041D57;
+  color: #6b4701;
   margin-bottom: 30px;
 }
 
 .xs-blog-post-comment .comment-respond input:not([type="submit"]),
 .xs-blog-post-comment .comment-respond textarea {
   width: 100%;
-  border: 1px solid #F1F1F1;
+  border: 1px solid #6b4701;
   height: 52px;
   padding: 0 20px;
   margin-bottom: 20px;
