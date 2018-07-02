@@ -527,8 +527,7 @@ a.xs-post-title:hover {
   color: #FFFFFF;
 }
 
-.xs-social-list li a:hover
-{
+.xs-social-list li a:hover {
   border-color: transparent;
   background-color: #f9c901;
   color: black;
@@ -1772,9 +1771,9 @@ blockquote span {
 }
 
 .xs-feature-box:hover {
-  min-height: 300px;
+  /* min-height: 300px; */
   background-color: #985b10;
-  padding: 40px 40px;
+  /* padding: 40px 40px; */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
@@ -5142,4 +5141,14 @@ h3 {
 
 .color-honey5 {
   color: #896800 !important;
+}
+
+.app-image-container {
+  width: 100%;
+  height: 12.5rem;
+  overflow: hidden;
+}
+
+.app-image-container img {
+  width: 100%;
 }
